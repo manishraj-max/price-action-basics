@@ -1,7 +1,5 @@
-# kk-education (private draft)
+# Price Action Basics
 
-Static educational site: a plain-English price action course. Open `index.html` in a browser; no build step.
+A plain-English course on reading price charts. Static HTML, no build step: open `index.html`.
 
-- Content is written in our own words with drawn candles. No images or text copied from third-party decks.
-- Not published. Do not enable GitHub Pages or add KK branding or service links until the BSE/SEBI answers are in.
-- Learning only: no named-stock calls, no performance claims.
+Learning only. Not investment advice. Charts are drawn examples, not real stocks. Draft content, written in our own words.
