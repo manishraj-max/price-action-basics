@@ -19,3 +19,17 @@ figure svg{width:100%;height:auto;background:var(--card);border:1px solid var(--
 .q button.wrong{border-color:var(--down);background:color-mix(in srgb,var(--down) 15%,transparent)}
 .q .why{font-size:.9rem;color:var(--muted);display:none}.q.done .why{display:block}
 footer{margin-top:50px;font-size:.85rem;color:var(--muted)}
+.widget{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:18px 0}
+.widget h4{margin:0 0 8px}.widget .fig svg{border:0;background:transparent;max-height:260px}
+.ctl label{display:block;margin:6px 0;font-size:.95rem}.ctl output{float:right;font-weight:600}
+.ctl input[type=range]{width:100%;accent-color:var(--accent)}
+.ctl.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.btn{font:inherit;border:1px solid var(--line);background:var(--bg);color:var(--fg);border-radius:8px;padding:8px 14px;cursor:pointer}
+.btn:hover{border-color:var(--accent)}.btn.on{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.btn.right{border-color:var(--up);background:color-mix(in srgb,var(--up) 18%,transparent)}.btn.wrong{border-color:var(--down);background:color-mix(in srgb,var(--down) 18%,transparent)}
+.btn:disabled{cursor:default;opacity:1}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:8px}@media(max-width:480px){.opts{grid-template-columns:1fr}}
+.readout{min-height:3.2em;margin:10px 0}
+.pop{animation:pop .45s ease-out;transform-origin:bottom}
+@keyframes pop{from{opacity:0;transform:translateY(-14px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.pop{animation:none}}
